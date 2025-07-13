@@ -3,8 +3,6 @@ package com.anellaslogar.erasmus.entity;
 import com.anellaslogar.erasmus.entityDTO.FakultetDTO;
 import jakarta.persistence.*;
 
-import java.util.stream.Collectors;
-
 @Entity
 @Table(name="fakulteti")
 public class Fakultet {
@@ -95,4 +93,6 @@ public class Fakultet {
                 adresaFakulteta,
                 emailKontakt);
     }
+
+   
 }

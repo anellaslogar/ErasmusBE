@@ -23,7 +23,7 @@ public class KorisnikServiceImpl implements KorisnikService{
     }
 
     @Override
-    public Optional<KorisnikDTO> findById(Long theIdKorisnikDTO) {
+    public Optional<KorisnikDTO> findById(Integer theIdKorisnikDTO) {
         return korisnikRepository.findById(theIdKorisnikDTO).map(Korisnik::toDTO);
     }
 
@@ -34,20 +34,21 @@ public class KorisnikServiceImpl implements KorisnikService{
 
         if (theKorisnikDTO.getIdKorisnik().toString().length() == 0) {
             Korisnik korisnikDTO = null;
-            theKorisnik = new Korisnik(korisnikDTO.getEmail(), korisnikDTO.getLozinka(), "Username-Password-Authentication");
+            theKorisnik = new Korisnik(korisnikDTO.getEmail(), korisnikDTO.getIme(), korisnikDTO.getPrezime() );
         } else {
             theKorisnik = korisnikRepository.findById(theKorisnikDTO.getIdKorisnik())
                     .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
         }
 
         theKorisnik.setEmail(theKorisnik.getEmail());
-        theKorisnik.setLozinka(theKorisnikDTO.getPass());
+        theKorisnik.setIme(theKorisnik.getIme());
+        theKorisnik.setPrezime(theKorisnik.getPrezime());
 
         return korisnikRepository.save(theKorisnik);
     }
 
     @Override
-    public void deleteById(Long theIdKorisnikDTO) {
+    public void deleteById(Integer theIdKorisnikDTO) {
         korisnikRepository.deleteById(theIdKorisnikDTO);
     }
 }

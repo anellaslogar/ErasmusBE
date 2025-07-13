@@ -38,8 +38,6 @@ public class StudentServiceImpl implements StudentService{
         }
 
         theStudent.setIdStudent(theStudentDTO.getIdStudent());
-        theStudent.setIme(theStudentDTO.getIme());
-        theStudent.setPrezime(theStudentDTO.getPrezime());
         // fakultet i korisnik email
         return studentRepository.save(theStudent);
 

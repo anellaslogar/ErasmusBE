@@ -11,7 +11,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class StudentDTO {
-    private Integer idStudent;
+    private String supabaseUserId;
     private String ime;
     private String prezime;
+    private Integer fakultetId;
 }

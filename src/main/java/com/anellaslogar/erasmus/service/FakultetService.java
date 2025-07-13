@@ -14,7 +14,7 @@ public interface FakultetService {
 
         Fakultet save(FakultetDTO theFakultetDTO);
 
-        void deleteById(int theIdFakultetDTO);
+        void deleteById(Integer theIdFakultetDTO);
 
 
 }

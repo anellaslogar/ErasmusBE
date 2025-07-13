@@ -9,9 +9,9 @@ public interface KorisnikService {
 
     List<KorisnikDTO> findAll();
 
-    Optional<KorisnikDTO> findById(Long theIdKorisnikDTO);
+    Optional<KorisnikDTO> findById(Integer theIdKorisnikDTO);
 
     Korisnik save(KorisnikDTO theKorisnikDTO);
 
-    void deleteById(Long theIdKorisnikDTO);
+    void deleteById(Integer theIdKorisnikDTO);
 }

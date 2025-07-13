@@ -48,7 +48,7 @@ public class FakultetServiceImpl implements FakultetService{
     }
 
     @Override
-    public void deleteById(int theIdFakultetDTO) {
+    public void deleteById(Integer theIdFakultetDTO) {
         fakultetRepository.deleteById(theIdFakultetDTO);
     }
 

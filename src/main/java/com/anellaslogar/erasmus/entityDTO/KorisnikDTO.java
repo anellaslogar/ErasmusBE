@@ -11,6 +11,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class KorisnikDTO {
 
-    private Long idKorisnik;
-    private String pass;
+    private Integer idKorisnik;
+    private String ime;
+    private String prezime;
+    private String email;
 }

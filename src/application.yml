@@ -1,7 +1,1 @@
-spring:
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: https://dev-lpjm7tiz0tyfg3q4.eu.auth0.com/
-          audience: http://erasmus
+
