@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c5ea8548-c747-469d-9132-b90591afb2bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/controller/FakultetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/controller/ProfilController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/security/JwtAuthConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/security/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/controller/ApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/controller/Auth0Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/controller/RegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/entity/Fakultet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/entity/Fakultet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/entity/Korisnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/entity/Korisnik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/entityDTO/KorisnikDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/entityDTO/KorisnikDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/entityDTO/RegistrationRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/entityDTO/StudentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/entityDTO/StudentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/repository/KorisnikRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/repository/KorisnikRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/security/Auth0Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/security/JwtDecoderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/security/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/security/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/service/FakultetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/service/FakultetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/service/FakultetServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/service/FakultetServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/service/KorisnikService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/service/KorisnikService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/service/KorisnikServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/service/KorisnikServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anellaslogar/erasmus/service/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2Z1noY9R6y5CFyL1UpUlpECfodx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ErasmusApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anell/Desktop/erasmus_projekt/erasmus&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.anellaslogar.erasmus.repository" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.anellaslogar.erasmus.entity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ErasmusApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.anellaslogar.erasmus.ErasmusApplication" />
+      <module name="erasmus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anellaslogar.erasmus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ErasmusApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5ea8548-c747-469d-9132-b90591afb2bf" name="Changes" comment="" />
+      <created>1701598629293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701598629293</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ErasmusBE" />
+    </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
